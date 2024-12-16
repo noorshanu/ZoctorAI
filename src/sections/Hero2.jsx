@@ -118,7 +118,7 @@ const Hero2 = () => {
               Meet
             </span>{" "}
             <span ref={span2} className="inline-block txt-grad">
-              Mark8
+             ZoctorAi
             </span>
           </h1>
         </div>
