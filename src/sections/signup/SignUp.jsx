@@ -50,12 +50,14 @@ const SignUp = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center p-4">
-      <form
-        className="bg-white shadow-md rounded-md p-6 max-w-2xl w-full"
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center px-4 mt-[5%]">
+     <div className="service-card border-[#757575] border py-4 px-6 rounded-xl nft no-transition">
+     <h1 className="text-2xl font-semibold mb-4 border-b-2 pb-2 border-[#0062f1]">Registration </h1>
+     <form
+        className="bg-white shadow-md rounded-md p-6 max-w-2xl w-full text-black"
         onSubmit={handleSubmit}
       >
-        <h1 className="text-2xl font-semibold mb-4">Sign Up</h1>
+      
 
         {/* Basic Information */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
@@ -64,7 +66,7 @@ const SignUp = () => {
             <input
               type="text"
               name="firstName"
-              className="border rounded w-full px-3 py-2"
+              className="border border-[#0062f1] rounded w-full px-3 py-2  bg-[#0000]"
               required
               onChange={handleInputChange}
             />
@@ -74,7 +76,7 @@ const SignUp = () => {
             <input
               type="text"
               name="lastName"
-              className="border rounded w-full px-3 py-2"
+              className="border border-[#0062f1] rounded w-full px-3 py-2  bg-[#0000]"
               required
               onChange={handleInputChange}
             />
@@ -85,7 +87,7 @@ const SignUp = () => {
           <input
             type="text"
             name="phoneNumber"
-            className="border rounded w-full px-3 py-2"
+            className="border border-[#0062f1] rounded w-full px-3 py-2  bg-[#0000]"
             required
             placeholder="+1 123-456-7890"
             onChange={handleInputChange}
@@ -96,7 +98,7 @@ const SignUp = () => {
           <input
             type="email"
             name="email"
-            className="border rounded w-full px-3 py-2"
+            className="border border-[#0062f1] rounded w-full px-3 py-2  bg-[#0000]"
             required
             placeholder="example@mail.com"
             onChange={handleInputChange}
@@ -110,7 +112,7 @@ const SignUp = () => {
             <input
               type="password"
               name="password"
-              className="border rounded w-full px-3 py-2"
+              className="border border-[#0062f1] rounded w-full px-3 py-2  bg-[#0000]"
               required
               onChange={handleInputChange}
             />
@@ -123,7 +125,7 @@ const SignUp = () => {
             <input
               type="password"
               name="confirmPassword"
-              className="border rounded w-full px-3 py-2"
+              className="border border-[#0062f1] rounded w-full px-3 py-2  bg-[#0000]"
               required
               onChange={handleInputChange}
             />
@@ -225,6 +227,7 @@ const SignUp = () => {
           Save
         </button>
       </form>
+     </div>
     </div>
   );
 };
