@@ -6,7 +6,7 @@ function Login() {
       <div className="flex h-screen container-wrapper">
         {/* Illustration Section */}
         <div className="hidden lg:flex items-center justify-center flex-1 bg-white text-black">
-          <div className="max-w-md text-center">
+          <div className="max-w-md text-center ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="524.67"
@@ -86,7 +86,7 @@ function Login() {
 
         {/* Login Form Section */}
         <div className="flex items-center justify-center flex-1 bg-gray-100">
-          <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-lg">
+          <div className="w-full max-w-md p-8 space-y-6 bg-[#0000009c] border-prime border rounded-lg shadow-lg">
             <h2 className="text-2xl font-bold text-center text-gray-900">
               Welcome Back
             </h2>
@@ -121,7 +121,7 @@ function Login() {
               </div>
               <button
                 type="submit"
-                className="w-full p-3 text-white bg-blue-500 rounded-lg hover:bg-blue-600"
+                className="w-full p-3 text-white bg-prime rounded-lg hover:bg-blue-600"
               >
                 Login
               </button>
