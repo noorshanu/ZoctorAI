@@ -49,11 +49,11 @@ function Navbar() {
         <div className="md:flex items-center">
           <div className=" flex items-center gap-4 text-white  ml-5">
             <a
-              href="https://t.me/Mark8_Io" target="_blank"
+              href="/login" target="_blank"
               className="  shadow-xl   py-2 px-4 font-archo text-center text-base rounded-3xl font-manbold font-bold   bg-[#005dff] hover:bg-[#0000] hover:border flex items-center gap-2 "
             >
               {" "}
-            Get Started
+           Login
             </a>
           </div>
         </div>
